@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.footer {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  color: rgb(54, 17, 15);
+}
+.promo-banner {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+  color: rgb(54, 17, 15);
+}
+.hidden{
+     height: 10vh;
+     width: 100%;
+     // border: 2px solid black;
+}
+
+@media screen and (max-width: 900px) {
+     .carousel{
+         
+     }
+
+}
